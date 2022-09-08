@@ -1,0 +1,12 @@
+.preview {
+  grid-row: 2 / 3;
+  grid-column: 2 / 3;
+  box-sizing: border-box;
+  position: relative;
+  padding: 6px 8px;
+  height: 100%;
+  font-family: "Monaco", "SF Mono", "Source Code Pro", "Consolas", monospace;
+  font-size: 18px;
+  line-height: 1.6;
+  background-color: #FFF;
+}
