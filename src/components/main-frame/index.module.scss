@@ -1,7 +1,5 @@
 .frame {
-  display: grid;
-  grid-template: 1fr 1fr / 1fr 1fr;
-  gap: 4px;
+  position: relative;
   height: 100vh;
   background-color: #E5E5E5;
 }

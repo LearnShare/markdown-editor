@@ -7,6 +7,7 @@ import {
 } from '../code-provider';
 
 import styles from './index.module.scss';
+import '@/styles/markdown.css';
 
 function HtmlPreview() {
   const {
