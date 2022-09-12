@@ -10,6 +10,7 @@
     "lint": "eslint --ext .js,.ts,.jsx,.tsx --ignore-path .gitignore src"
   },
   "dependencies": {
+    "prettier": "^2.7.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "rehype-sanitize": "^5.0.1",
@@ -36,6 +37,6 @@
     "eslint-plugin-react": "^7.31.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "typescript": "^4.6.4",
-    "vite": "^3.0.7"
+    "vite": "3.0.9"
   }
 }

@@ -1,6 +1,8 @@
 import React, {
   useContext,
 } from 'react';
+import prettier from 'prettier/standalone';
+import htmlParser from 'prettier/parser-html';
 
 import {
   CodeContext,
@@ -16,7 +18,12 @@ function CodeViewer() {
   return (
     <div
         className={ styles.viewer }>
-      { html }
+      { prettier.format(html, {
+        parser: 'html',
+        plugins: [
+          htmlParser,
+        ],
+      }) }
     </div>
   );
 }
